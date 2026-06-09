@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use VesperNet, please cite this software release and the paper."
+title: "VesperNet: Stable Reflectance Decomposition for Cross-Domain Low-Light Image Enhancement"
+authors:
+  - family-names: "Yan989na"
+    given-names: ""
+version: "0.1.0"
+date-released: "2026-06-09"
+repository-code: "https://github.com/Yan989na/VesperNet"
+url: "https://github.com/Yan989na/VesperNet"
+keywords:
+  - low-light image enhancement
+  - retinex decomposition
+  - stable reflectance proxy
+  - self-supervised restoration
+preferred-citation:
+  type: article
+  title: "Stable Reflectance Decomposition for Cross-Domain Low-Light Image Enhancement"
+  authors:
+    - family-names: "Yan989na"
+      given-names: ""
+  year: 2026
+  url: "https://github.com/Yan989na/VesperNet"

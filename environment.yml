@@ -1,0 +1,19 @@
+name: vespernet
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - numpy
+  - scipy
+  - matplotlib
+  - pip:
+      - opencv-python>=4.8
+      - Pillow>=10.0
+      - scikit-image>=0.22
+      - tqdm>=4.66
+      - PyYAML>=6.0
+      - lpips>=0.1.4
