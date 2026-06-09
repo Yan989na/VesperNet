@@ -1,0 +1,17 @@
+_base_: vespernet_default.yaml
+
+data:
+  test_low_dir: data/LOL/eval15/low
+  test_high_dir: data/LOL/eval15/high
+  dataset_name: LOLv1-eval15
+
+inference:
+  output_dir: outputs/p2_ablation
+  tta: true
+  bilateral: true
+  contrast: true
+  sharpen: true
+  gray_world: true
+
+evaluation:
+  compute_lpips: true

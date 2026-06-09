@@ -1,0 +1,19 @@
+_base_: vespernet_default.yaml
+
+data:
+  mode: source_paired
+  source_low_dir: data/LOL/our485/low
+  source_high_dir: data/LOL/our485/high
+  target_low_dir: null
+  file_list: null
+
+train:
+  batch_size: 4
+  epochs: 30
+  lr: 0.0002
+  save_dir: runs/stage_l
+  save_name: illum_ckpt.pth
+  save_interval: 10
+  lambda_illum: 1.0
+  lambda_tv: 0.1
+  lambda_recon: 1.0
