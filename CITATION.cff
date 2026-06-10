@@ -2,7 +2,6 @@ cff-version: 1.2.0
 message: "If you use VesperNet, please cite this software release and the paper."
 title: "VesperNet: Stable Reflectance Decomposition for Cross-Domain Low-Light Image Enhancement"
 authors:
-  authors:
   - family-names: "Yan"
     given-names: "Jingxian"
   - family-names: "Zhang"
