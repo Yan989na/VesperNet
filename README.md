@@ -195,3 +195,11 @@ Please cite the metadata in [CITATION.cff](CITATION.cff).
 - [docs/training.md](docs/training.md)
 - [docs/inference.md](docs/inference.md)
 - [docs/evaluation_protocol.md](docs/evaluation_protocol.md)
+
+## Originality and Third-Party Resources
+
+This repository contains the authors' official implementation of VesperNet for the manuscript "Stable Reflectance Decomposition for Cross-Domain Low-Light Image Enhancement." The model implementation, training scripts, inference scripts, and evaluation protocol released here correspond to the authors' submitted revision.
+
+This repository does not redistribute third-party datasets. Users should download LOL, LOLv2-Rea, LSRW, BrighteningTrain, and SICE from their official sources and arrange them according to the documented directory structure. Third-party Python packages are used under their respective licenses.
+
+The VesperNet model code is authored by the paper authors; external libraries are used only as dependencies.
